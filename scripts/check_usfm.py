@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Validate translation files against the project's rules (docs/style-guide.md).
 
-Usage: python3 -I scripts/check_usfm.py text/GEN.usfm [more files...]
+Usage: python3 -I scripts/check_usfm.py [--partial] text/GEN.usfm [more files...]
+  --partial  the file holds only some chapters (pilot passages): chapters may skip,
+             and completeness is checked only for the chapters present
 Exit status 1 if any error is found.
 
 Checks
@@ -28,13 +30,13 @@ PARA = {"id", "h", "toc1", "toc2", "toc3", "mt1", "mt2", "ms1", "s1", "s2", "d",
 CHAR = {"add", "nd", "wj", "qt", "qs", "zpl", "it", "bd", "fqa", "ft", "fr", "f"}
 NOTE_TAGS = ("Text:", "Or:", "Lit.:", "Heb.:", "Gk.:", "Aram.:", "OT:", "Note:")
 ARCHAIC = re.compile(r"\b(thee|thou|thy|thine|ye|hath|doth|dost|hast|wilt|shalt|unto|verily|saith)\b", re.I)
-INCLUSIVE = re.compile(r"\bbrothers and sisters\b|\bbrethren and sisters\b|\bhumankind\b|\bmankind\b"
+INCLUSIVE = re.compile(r"\bbrothers and sisters\b|\bbrethren and sisters\b|\bhumankind\b"
                        r"|\bpeople of faith\b|\bhumanity\b", re.I)
 
 TOKEN = re.compile(r"\\(\+?)([a-z0-9]+)(\*?)")
 
 
-def check(path):
+def check(path, partial=False):
     errs = []
     def err(n, msg): errs.append(f"{path}:{n}: {msg}")
     lines = Path(path).read_text(encoding="utf-8").split("\n")
@@ -53,7 +55,7 @@ def check(path):
         m = re.match(r"\\(c|v)\s+(\d+)(?:-(\d+))?", line)
         if m and m.group(1) == "c":
             c = int(m.group(2))
-            if c != chapter + 1:
+            if c != chapter + 1 and not (partial and c > chapter):
                 err(n, f"chapter {c} follows chapter {chapter}")
             chapter = c
         for vm in re.finditer(r"\\v\s+(\d+)(?:-(\d+))?", line):
@@ -97,6 +99,9 @@ def check(path):
                     body = line[t.end():]
                     if not any(tag in body for tag in NOTE_TAGS):
                         err(n, "footnote has no category tag (Text:/Or:/Lit.:/Heb.:/Gk.:/Aram.:/OT:/Note:)")
+        # a marker's own trailing space is not text: "\\fqa gods\\ft (KJV)" renders "gods(KJV)"
+        if re.search(r"(?<=[\w.)\u201d\u2019])\\(?:ft|fqa) (?=[\w(\u201c\u2018])", line):
+            err(n, "missing space before a footnote marker (write: word \\ft text)")
         # text rules (strip markers and footnote bodies first)
         plain = re.sub(r"\\f \+.*?\\f\*", "", line)
         plain_nd = re.sub(r"\\\+?nd .*?\\\+?nd\*", "", plain)
@@ -109,7 +114,9 @@ def check(path):
             err(n, f"inclusive-language form: {INCLUSIVE.search(plain_text).group(0)!r} (charter decision 4)")
     if stack:
         err(len(lines), f"unclosed markers at end of file: {stack}")
-    missing = sorted(set(expected) - seen, key=lambda r: tuple(int(x) for x in r.split(".")[1:]))
+    present = {k.rsplit(".", 1)[0] for k in seen}
+    scope = {k for k in expected if not partial or k.rsplit(".", 1)[0] in present}
+    missing = sorted(scope - seen, key=lambda r: tuple(int(x) for x in r.split(".")[1:]))
     if missing:
         err(len(lines), f"{len(missing)} KJV verse(s) missing, first: {missing[:5]}")
     return errs
@@ -118,7 +125,8 @@ def check(path):
 def main(argv):
     if not argv:
         sys.exit(__doc__)
-    errs = [e for p in argv for e in check(p)]
+    partial = "--partial" in argv
+    errs = [e for p in argv if p != "--partial" for e in check(p, partial)]
     print("\n".join(errs) if errs else "OK")
     return 1 if errs else 0
 

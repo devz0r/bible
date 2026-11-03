@@ -30,7 +30,8 @@ An English Bible translation that is accurate, readable and transparent. Before 
 ## Rules
 
 - **Translate from the source-text files in `sources/`, never from memory alone.** If `sources/raw/` is missing, run `./scripts/fetch_sources.sh` then `python3 -I scripts/build_index.py`. Look up a verse with `python3 scripts/verse.py Jhn.3.16`. Read `sources/README.md` (known problems) first: the Greek TR files are not yet verified against Scrivener 1894, so follow the interim rule in charter §8.
-- **Validate every book file** with `python3 -I scripts/check_usfm.py text/XXX.usfm` before committing, and run `./tests/run.sh` after changing the scripts. Translation files go in `text/`, one USFM file per book.
+- **Draft with the study view:** `python3 scripts/study.py Jhn.3` lists every word with gloss, grammar and editions; words tagged `<2PL>` get `\zpl`, and `[not TR]` words stay out of the main text. For the NT, translate from the scrollmapper TR text (charter §8) and check `sources/index/TR_DISAGREEMENTS.tsv` for the chapter.
+- **Validate every book file** with `python3 -I scripts/check_usfm.py text/XXX.usfm` (add `--partial` while a book has only some chapters) before committing, and run `./tests/run.sh` after changing the scripts. Translation files go in `text/`, one USFM file per book. Regenerate the readable page with `python3 -I scripts/render_html.py -o preview/pilot.html text/*.usfm`.
 - **No gender-inclusive language** (the project owner's decision; charter decision 4).
 - **Every rule change** goes into the charter's decision log (§8), and must be applied to chapters that are already translated.
 - **Never silently depart from the glossary.** Either follow it or add a note and update the glossary.

@@ -18,14 +18,16 @@ Status codes: — not started · D drafted · R reviewed against the source · N
 
 | Passage | Why | Status |
 |---|---|---|
-| Genesis 1–3 | Creation, *ruach*, *'adam*, *nephesh* | — |
+| Genesis 1–3 | Creation, *ruach*, *'adam*, *nephesh* | D (Opus 5.5), 2026-11-03 |
 | Psalm 23 | The most compared passage; Hebrew poetry | — |
 | Isaiah 7:14 | *'almah* / "virgin" | — |
 | Isaiah 52:13–53:12 | The suffering servant | — |
-| John 1 | *Logos*, *monogenēs* | — |
-| John 3 | *Pneuma* wordplay, "born again / from above" | — |
-| Romans 3 | Justification, propitiation, *pistis Christou* | — |
-| 1 John 5 | The Johannine Comma (textual note) | — |
+| John 1 | *Logos*, *monogenēs* | D (Opus 5.5), 2026-11-03 |
+| John 3 | *Pneuma* wordplay, "born again / from above" | D (Opus 5.5), 2026-11-03 |
+| Romans 3 | Justification, propitiation, *pistis Christou* | D (Opus 5.5), 2026-11-03. Charter assigns Romans to Fable: review with extra care |
+| 1 John 5 | The Johannine Comma (textual note) | D (Opus 5.5), 2026-11-03 |
+
+Drafts are in `text/` (USFM). A readable page is in `preview/pilot.html` (regenerate with `scripts/render_html.py`). Every Opus draft is to be reviewed against the source by Fable 5.1 (CLAUDE.md: the model that did not draft it).
 
 ## Phase 2: Full translation
 

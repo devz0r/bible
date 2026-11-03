@@ -43,6 +43,7 @@ Default English renderings for theologically and lexically important words. Gove
 | רוּחַ *ruach* | H7307 | spirit / Spirit | "wind", "breath" by context. Note every passage where more than one sense is in play. Genesis 1:2: "the Spirit of God" (KJV), with the note "Or *a wind from God*, *the breath of God*". Ezekiel 37:1–14 plays on all three senses; note it. |
 | πνεῦμα *pneuma* | G4151 | spirit / Spirit | "wind" (John 3:8), "breath" (2 Thessalonians 2:8; Revelation 11:11). John 3:8 must be noted. Use "Holy Spirit" (not "Holy Ghost"), with a first-note in the Gospels. |
 | נֶפֶשׁ *nephesh* | H5315 | soul | "life" (when life is at stake), "person" (counting people), "self", "appetite/desire", "throat" (Isaiah 5:14; Jonah 2:5) — all noted. Genesis 2:7: "a living being", with a note that the same phrase (*nephesh chayyah*) is used of animals in 1:20, 24 and that the KJV has "living soul". |
+| נֶפֶשׁ חַיָּה *nephesh chayyah* | H5315 + H2416 | living being(s) | The same English everywhere, for animals and for man (Genesis 1:20, 21, 24, 30; 2:7, 19), so the reader can see the link. Note at 2:7 (KJV "living soul"). |
 | ψυχή *psychē* | G5590 | soul | "life" by context. Within a single passage, render it the same way throughout (Mark 8:35–37; Matthew 16:25–26) and note the other sense. |
 | לֵב / לֵבָב *lev / levav* | H3820 / H3824 | heart | Note where the sense is "mind" or "will", which Hebrew includes in "heart". |
 | כִּלְיָה *kilyah* | H3629 | heart | Note: "Lit. *kidneys* (KJV *reins*), the seat of the inner life". |
@@ -70,6 +71,9 @@ Default English renderings for theologically and lexically important words. Gove
 | δικαιοσύνη *dikaiosynē* | G1343 | righteousness | — |
 | δικαιόω *dikaioō* | G1344 | justify | "declare righteous" in a note at the first occurrence in Romans and Galatians. |
 | δίκαιος *dikaios* | G1342 | righteous | "just", "right" by context. |
+| κρίνω *krinō* / κρίσις *krisis* | G2919 / G2920 | judge / judgment | "condemn" (KJV) is not used for these words, because the Greek has a separate word for that (*katakrinō*); note **Or:** *condemn* where the sense is adverse judgment (John 3:17–19). *krima* = "judgment" or "condemnation" by context. |
+| ἀπειθέω *apeitheō* | G544 | disobey / not obey | John 3:36, with the note "Or *does not believe* (KJV)". Keep distinct from *apisteō*, "not believe / be unfaithful". |
+| καταλαμβάνω *katalambanō* | G2638 | grasp | John 1:5, keeping both senses ("seize" and "understand"), with the note "Or *overcome*; or *comprehend* (KJV)". |
 | λογίζομαι *logizomai* | G3049 | count | Romans 4 and Galatians 3: "counted", consistently. First-note: "KJV *counted / reckoned / imputed*; a bookkeeping term". |
 | ἱλαστήριον *hilastērion* | G2435 | propitiation (Romans 3:25) | Hebrews 9:5: "mercy seat". Note the link between the two. |
 | ἱλασμός *hilasmos* | G2434 | propitiation | 1 John 2:2; 4:10. First-note: "a sacrifice that turns away wrath; *also* expiation". |
