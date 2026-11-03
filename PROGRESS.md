@@ -19,9 +19,9 @@ Status codes: — not started · D drafted · R reviewed against the source · N
 | Passage | Why | Status |
 |---|---|---|
 | Genesis 1–3 | Creation, *ruach*, *'adam*, *nephesh* | R (Fable 5.1 reviewed the Opus draft), 2026-11-03 |
-| Psalm 23 | The most compared passage; Hebrew poetry | — |
-| Isaiah 7:14 | *'almah* / "virgin" | — |
-| Isaiah 52:13–53:12 | The suffering servant | — |
+| Psalm 23 | The most compared passage; Hebrew poetry | D (Fable 5.1), 2026-11-03 |
+| Isaiah 7 (for 7:14) | *'almah* / "virgin" | D (Fable 5.1), 2026-11-03 |
+| Isaiah 52–53 | The suffering servant | D (Fable 5.1), 2026-11-03 |
 | John 1 | *Logos*, *monogenēs* | R (Fable 5.1), 2026-11-03 |
 | John 3 | *Pneuma* wordplay, "born again / from above" | R (Fable 5.1), 2026-11-03 |
 | Romans 3 | Justification, propitiation, *pistis Christou* | R (Fable 5.1), 2026-11-03 |

@@ -174,6 +174,7 @@ Default English renderings for theologically and lexically important words. Gove
 
 | Source | Strong's | Default | Context renderings / rules |
 |---|---|---|---|
+| צַלְמָוֶת *tsalmavet* | H6757 | deep darkness | KJV "shadow of death" (Psalm 23:4; Job; Jeremiah 2:6). Note at each occurrence in the Psalms giving the KJV wording; the word means thick darkness, and "shadow of death" reflects a traditional reading of its form. |
 | שְׁאוֹל *She'ol* | H7585 | Sheol | First-note: "the realm of the dead; KJV *hell, grave, pit*". |
 | ᾅδης *hadēs* | G86 | Hades | First-note: "the realm of the dead; the Greek equivalent of Sheol; KJV *hell*". |
 | γέεννα *geenna* | G1067 | hell | First-note: "Gk. *Gehenna*, from the Valley of Hinnom; the place of final punishment". |
