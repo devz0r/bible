@@ -10,8 +10,9 @@ Status codes: — not started · D drafted · R reviewed against the source · N
 | Style guide | Draft 1 (2026-11-03) |
 | Key-term glossary (core list) | Draft 1 (2026-11-03) |
 | Review of foundation documents by Fable 5.1 (xhigh) | Done (2026-11-03); changes logged in charter §8 |
-| Source-text data (`sources/`) | — |
-| Validation scripts (USFM, glossary, verse counts) | — |
+| Source-text data (`sources/`) | Done (2026-11-03). Hebrew and Greek verse sets verified against the KJV. **Open:** a verified Scrivener 1894 file |
+| Validation scripts (USFM markup, verse completeness, bare LORD, archaisms, inclusive language) | Done (2026-11-03); tests in `tests/` |
+| Glossary-consistency checker (same source word, same English word) | — |
 
 ## Phase 1: Pilot passages (for human review)
 

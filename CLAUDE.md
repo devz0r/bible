@@ -29,7 +29,8 @@ An English Bible translation that is accurate, readable and transparent. Before 
 
 ## Rules
 
-- **Translate from the source-text files in `sources/`, never from memory alone.** If the source files are missing, set them up first or stop and say so.
+- **Translate from the source-text files in `sources/`, never from memory alone.** If `sources/raw/` is missing, run `./scripts/fetch_sources.sh` then `python3 -I scripts/build_index.py`. Look up a verse with `python3 scripts/verse.py Jhn.3.16`. Read `sources/README.md` (known problems) first: the Greek TR files are not yet verified against Scrivener 1894, so follow the interim rule in charter §8.
+- **Validate every book file** with `python3 -I scripts/check_usfm.py text/XXX.usfm` before committing, and run `./tests/run.sh` after changing the scripts. Translation files go in `text/`, one USFM file per book.
 - **No gender-inclusive language** (the project owner's decision; charter decision 4).
 - **Every rule change** goes into the charter's decision log (§8), and must be applied to chapters that are already translated.
 - **Never silently depart from the glossary.** Either follow it or add a note and update the glossary.

@@ -1,0 +1,4 @@
+# Large third-party source files: re-create with scripts/fetch_sources.sh
+sources/raw/
+__pycache__/
+*.pyc

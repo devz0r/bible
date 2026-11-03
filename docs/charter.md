@@ -68,7 +68,7 @@ Choosing the Textus Receptus as the base does not mean pretending every one of i
 
 ### Differences among Textus Receptus editions, and between the KJV and the Greek
 
-"The Textus Receptus" is not one text. Erasmus (1516–1535), Stephanus (1550), Beza (1598), the Elzevirs (1633) and Scrivener (1881/1894) differ from one another in a few hundred small places. Our base is Scrivener, because it follows the KJV's choices. Other TR editions are **not** routinely cited. A difference among TR editions is footnoted only when it changes the meaning and is well known. Example: Luke 2:22, where Scrivener (with Beza and the Complutensian Polyglot) reads "her purification", the KJV's wording, while Stephanus 1550, the Majority text and the critical text read "their purification"; the reading "her" has little or no Greek manuscript support.
+"The Textus Receptus" is not one text. Erasmus (1516–1535), Stephanus (1550), Beza (1598), the Elzevirs (1633) and Scrivener (1881/1894) differ from one another in a few hundred small places. Our base is Scrivener, because it follows the KJV's choices. Other TR editions are **not** routinely cited. A difference among TR editions is footnoted only when it changes the meaning and is well known. Example: Luke 2:22, where the KJV has "her purification" while the Majority text and the critical text read "their purification"; the reading "her" has little or no Greek manuscript support. (Which printed TR editions read "her" is to be confirmed against Scrivener 1894 itself; see `sources/README.md`.)
 
 In a small number of places the KJV follows a reading found in no Greek manuscript at all (usually from the Latin Vulgate or from a conjecture of Beza). Scrivener keeps those readings, so they are in our base text. Each one is footnoted and the note says so plainly. Example: Revelation 16:5, "and who shall be" (Beza's conjecture), where every Greek manuscript reads "the Holy One".
 
@@ -76,7 +76,7 @@ In a small number of places the KJV follows a reading found in no Greek manuscri
 
 The Masoretic Text is followed unless another reading has **ancient manuscript support** and is clearly superior. Every such departure is footnoted. Example: Psalm 22:16, where the Leningrad Codex reads "like a lion my hands and feet", while a Hebrew scroll from Nahal Hever (among the Judean Desert finds), together with the Septuagint's "they dug", supports "they pierced my hands and feet" (the KJV reading).
 
-**Verses the Leningrad Codex lacks.** A few verses that the KJV has (from the Ben Hayyim text) are absent from the Leningrad Codex, for example Joshua 21:36–37 and Nehemiah 7:68 (to be confirmed against the source files). Because this translation keeps the KJV's verse set, such verses are translated from the Ben Hayyim text and footnoted.
+**Verses the Leningrad Codex lacks.** A few verses that the KJV has (from the Ben Hayyim text) are absent from the Leningrad Codex, namely Joshua 21:36–37 and Nehemiah 7:68 (confirmed: our Hebrew data marks all three as restored text taken from the parallel lists in Chronicles and Ezra). Because this translation keeps the KJV's verse set, such verses are translated from that restored text and footnoted.
 
 **Qere and Ketiv.** Where the Masoretic scribes wrote one thing (*Ketiv*) but marked another to be read (*Qere*), the Qere is translated, which is what the KJV usually does. The Ketiv is footnoted when the difference changes the meaning.
 
@@ -103,15 +103,15 @@ All translation work is done from actual source-text files kept in this reposito
 | OT Hebrew/Aramaic text + morphology | Westminster Leningrad Codex via Open Scriptures Hebrew Bible (OSHB) | Public domain text; CC BY 4.0 morphology |
 | OT Ben Hayyim text (for verses or readings where it differs from Leningrad) | C. D. Ginsburg's edition of the Hebrew Bible (1894), which follows the Ben Hayyim tradition | Public domain |
 | Dead Sea Scrolls readings (for notes) | Published editions (Discoveries in the Judaean Desert; Abegg, Flint and Ulrich, *The Dead Sea Scrolls Bible*), consulted and cited, not reproduced | — |
-| NT base text | Scrivener's Textus Receptus (1894) | Public domain |
+| NT base text | Scrivener's Textus Receptus (1894). **Not yet in hand as a verified file** (see §8, 2026-11-03). Interim: TAGNT's TR tag plus a second TR text, cross-checked against the KJV | Public domain (Scrivener); see `sources/README.md` for the interim files |
 | NT Majority text | Robinson-Pierpont Byzantine Textform (2018) | Public domain |
 | NT critical text | SBL Greek New Testament; NA28 readings cited (not reproduced) | SBLGNT freely licensed; NA28 cited only |
-| Variant/edition tagging | STEPBible data (TAHOT, TAGNT) from Tyndale House | CC BY 4.0 |
+| Variant/edition tagging | STEPBible data (TAHOT, TAGNT) from Tyndale House. Downloaded and checked: 31,102 verses, identical to the KJV verse set | CC BY 4.0 |
 | Septuagint (for notes) | Swete's edition (public domain); Rahlfs readings cited only | — |
 | Lexical reference | BDB, Thayer, Strong's (public domain); HALOT and BDAG consulted as scholarly standards but not reproduced | — |
 | Comparison | KJV (1769 Oxford text) | Public domain (outside the UK) |
 
-Exact files, versions and checksums will be recorded in `sources/README.md` when the data is set up.
+Exact files, checksums and known problems are recorded in `sources/README.md`, and `scripts/fetch_sources.sh` re-creates the data.
 
 ## 6. Workflow (per chapter)
 
@@ -137,3 +137,4 @@ The master text is **USFM 3** (Unified Standard Format Markers), one file per bo
 | 2026-11-03 | "No silent omissions" (§3) refined: content is never dropped, but Hebrew and Greek discourse particles may be rendered by punctuation or sentence structure. | The earlier wording would have forced an English word for every *de* and *waw*, producing stilted English without adding accuracy. |
 | 2026-11-03 | Style guide: USFM nesting corrected (`\+` form inside `\wj` and inside footnotes); footnote templates fixed to use `\fqa` for alternative wordings; category tags are plain text; USFM header template added; new sections on Hebrew and Greek grammar, wordplay and acrostics, transliterated words, the words of Jesus, euphemisms, proper names and capitalization; appendix of KJV words whose meaning has changed. | The sample markup was invalid USFM 3, and several everyday translation questions had no rule. |
 | 2026-11-03 | Glossary: Psalm 8:5 *elohim* = "angels" (was "God" or "heavenly beings"); *nomos* = "law" throughout Romans, including 7:21–23 (was "principle" there); Daniel 7:13 "son of man" lowercase with a note; John 1:18 must carry a textual note; Ephesians 3:12 added to the *pistis Christou* list; Genesis 1:2 "Spirit of God" with a note; about forty entries added; a list of passages that always require a note (§I). Strong's number for *yir'ah* corrected to H3374. | Psalm 8:5 and *nomos* now follow the charter's own principles (NT-consistent rendering where the Hebrew allows; concordance over interpretation). The rest fills gaps. |
+| 2026-11-03 | Source data set up (`sources/`, `scripts/`). **Interim rule for the NT base text:** until a verified Scrivener 1894 file is added, each NT book is drafted from the TAGNT TR words, and before drafting, `scripts/compare_tr.py` is run for that book. Every verse where the second TR text differs in a real word (not spelling) is settled by asking what the KJV Greek must have been, because the KJV is the project's stated target, and the choice is recorded in that book's notes. | Neither available TR file reproduces Scrivener exactly (e.g. Revelation 16:5; 22:19; Luke 2:22). The owner may supply or approve a proper Scrivener file, which would replace this rule. |

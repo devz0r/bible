@@ -1,0 +1,4 @@
+KJV verses: 31102  source verses (excl. v0): 31102
+In KJV but not in source data (0):
+In source data but not in KJV (0):
+NT verses where TR text differs from NA28: 3779 of 7957
