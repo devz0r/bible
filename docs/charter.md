@@ -20,8 +20,8 @@ We do not claim to end the debates between translations. Most of them are not ab
 
 | # | Question | Decision | Why |
 |---|---|---|---|
-| 1 | **New Testament base text** | **Textus Receptus**, in Scrivener's 1894 edition (the Greek text underlying the King James Version). Readings from the **critical text** (NA28 / SBLGNT) and the **Majority/Byzantine text** (Robinson-Pierpont 2018) are given in footnotes wherever they differ in meaning. | Keeps the textual base KJV readers trust, while hiding nothing from readers who prefer the older manuscripts. This is the approach of the NKJV, but with fuller and more candid notes. |
-| 1b | **Old Testament base text** | **Masoretic Text** (Westminster Leningrad Codex). Significant readings from the Dead Sea Scrolls, Septuagint, Samaritan Pentateuch and other ancient versions are footnoted. | The Masoretic Text is the base of the KJV and of virtually every modern Protestant translation. The KJV's own Hebrew text (Bomberg's Second Rabbinic Bible, 1524–25) differs from Leningrad only in minor details; where a difference matters, it is noted. |
+| 1 | **New Testament base text** | **Textus Receptus**, in Scrivener's edition (1881, reprinted 1894), which reconstructs the Greek text underlying the King James Version. Readings from the **critical text** (NA28 / SBLGNT) and the **Majority/Byzantine text** (Robinson-Pierpont 2018) are given in footnotes wherever they differ in meaning. | Keeps the textual base KJV readers trust, while hiding nothing from readers who prefer the older manuscripts. This is the approach of the NKJV, but with fuller and more candid notes. |
+| 1b | **Old Testament base text** | **Masoretic Text** (Westminster Leningrad Codex). Significant readings from the Dead Sea Scrolls, Septuagint, Samaritan Pentateuch and other ancient versions are footnoted. | The Masoretic Text is the base of the KJV and of virtually every modern Protestant translation. The KJV's own Hebrew text (the Second Rabbinic Bible, Bomberg 1524–25, edited by Jacob ben Hayyim) differs from Leningrad only in minor details; where a difference matters, it is noted (see §4). |
 | 2 | **The divine name (YHWH)** | **LORD** (small capitals). *Adonai YHWH* = "Lord GOD". *YHWH Elohim* = "LORD God". *YHWH Tseva'ot* = "LORD of hosts". The meaning and pronunciation of the name are explained in notes at Exodus 3:14–15 and 6:3. | Follows the KJV, the Jewish reading tradition, and the New Testament's own practice (it renders the name as *Kyrios*, "Lord"). The small capitals tell the reader exactly where the Hebrew has the name. |
 | 3 | **Canon** | The **66 books** of the Protestant canon, in the KJV order. The Apocrypha may be added later as a clearly separate section (as in the 1611 KJV), after the 66 books are complete. | Finish the core first. The Apocrypha is optional and does not delay anything else. |
 | 4 | **Gender language** | **No gender-inclusive language.** Masculine forms are translated as masculine: *adelphoi* = "brothers", *anthrōpos* = "man", *huioi* = "sons", generic "he" stays "he". Where the original itself names both sexes ("sons and daughters", "men and women"), so does the translation. | Decided by the project owner. It is also the more formally literal choice. |
@@ -44,7 +44,7 @@ When principles conflict, the higher one wins **and the conflict is footnoted**.
 
 - **No paraphrase.** We do not convert ancient money, weights, measures, times or customs into modern ones in the text. A *denarius* stays a denarius, and a footnote gives the equivalent.
 - **No silent additions.** Every English word with no counterpart in the source (beyond what grammar requires) is marked as *supplied*, the way the KJV uses italics.
-- **No silent omissions.** Every source word or particle is accounted for, including *hinneh* / *idou* ("behold") and the conjunctions.
+- **No silent omissions.** No content is left out. Every content word is accounted for, including *hinneh* / *idou* ("behold"). Connectives and discourse particles (Hebrew *waw*; Greek *de*, *gar*, *oun*, *men*, *kai*) are rendered by an English word where English has one that fits ("and", "but", "for", "then", "so", "now"), and otherwise by punctuation or sentence division. A connective that carries an argument ("for", "therefore", "so that", "because") is never dropped.
 - **No capitalized pronouns for God** (he, him, his). The original languages make no such distinction, and capitalizing forces interpretive decisions, especially in messianic psalms. This follows the KJV.
 - **No updating of theology.** The translation does not soften, modernize or explain away anything the text says.
 
@@ -66,15 +66,33 @@ These are the project's distinctive features. They are defined fully in the [sty
 
 Choosing the Textus Receptus as the base does not mean pretending every one of its readings is equally well attested. Where a Textus Receptus reading is found in few or no Greek manuscripts before the late medieval period (for example, 1 John 5:7b–8a, the "Johannine Comma"), it stays in the text, because that is our base, but the footnote says plainly what the manuscript evidence is. Readers on both sides of the debate should be able to trust our notes.
 
+### Differences among Textus Receptus editions, and between the KJV and the Greek
+
+"The Textus Receptus" is not one text. Erasmus (1516–1535), Stephanus (1550), Beza (1598), the Elzevirs (1633) and Scrivener (1881/1894) differ from one another in a few hundred small places. Our base is Scrivener, because it follows the KJV's choices. Other TR editions are **not** routinely cited. A difference among TR editions is footnoted only when it changes the meaning and is well known. Example: Luke 2:22, where Scrivener (with Beza and the Complutensian Polyglot) reads "her purification", the KJV's wording, while Stephanus 1550, the Majority text and the critical text read "their purification"; the reading "her" has little or no Greek manuscript support.
+
+In a small number of places the KJV follows a reading found in no Greek manuscript at all (usually from the Latin Vulgate or from a conjecture of Beza). Scrivener keeps those readings, so they are in our base text. Each one is footnoted and the note says so plainly. Example: Revelation 16:5, "and who shall be" (Beza's conjecture), where every Greek manuscript reads "the Holy One".
+
 ### Old Testament departures from the Masoretic Text
 
-The Masoretic Text is followed unless another reading has **ancient manuscript support** and is clearly superior. Every such departure is footnoted. Example: Psalm 22:16, where the Masoretic Text reads "like a lion my hands and feet", while a Dead Sea Scrolls manuscript and the Septuagint support "they pierced my hands and feet" (the KJV reading).
+The Masoretic Text is followed unless another reading has **ancient manuscript support** and is clearly superior. Every such departure is footnoted. Example: Psalm 22:16, where the Leningrad Codex reads "like a lion my hands and feet", while a Hebrew scroll from Nahal Hever (among the Judean Desert finds), together with the Septuagint's "they dug", supports "they pierced my hands and feet" (the KJV reading).
 
-### New Testament quotations of the Old Testament
+**Verses the Leningrad Codex lacks.** A few verses that the KJV has (from the Ben Hayyim text) are absent from the Leningrad Codex, for example Joshua 21:36–37 and Nehemiah 7:68 (to be confirmed against the source files). Because this translation keeps the KJV's verse set, such verses are translated from the Ben Hayyim text and footnoted.
 
-Where the New Testament quotes the Old, the Old Testament passage is translated from the Hebrew on its own terms. Where the Hebrew allows a rendering consistent with the New Testament's use of it, that rendering is preferred, and the note explains the range of the Hebrew. Example: Isaiah 7:14, *'almah* = "virgin" (as quoted in Matthew 1:23 with Greek *parthenos*), with a note that the Hebrew word means a young woman of marriageable age.
+**Qere and Ketiv.** Where the Masoretic scribes wrote one thing (*Ketiv*) but marked another to be read (*Qere*), the Qere is translated, which is what the KJV usually does. The Ketiv is footnoted when the difference changes the meaning.
+
+**Aramaic.** Parts of the Old Testament are in Aramaic, not Hebrew: Genesis 31:47 (two words), Jeremiah 10:11, Ezra 4:8–6:18 and 7:12–26, and Daniel 2:4b–7:28. These are translated by the same rules. A footnote marks where each Aramaic section begins and ends.
+
+### Quotations of the Old Testament in the New
+
+**On the Old Testament side,** the passage is translated from the Hebrew on its own terms. Where the Hebrew allows a rendering consistent with the New Testament's use of it, that rendering is preferred, and the note explains the range of the Hebrew. Example: Isaiah 7:14, *'almah* = "virgin" (as quoted in Matthew 1:23 with Greek *parthenos*), with a note that the Hebrew word means a young woman of marriageable age.
+
+**On the New Testament side,** the Greek is translated as it stands, even where it differs from the Hebrew, because the New Testament writers often quote the Septuagint. The translation is never adjusted to make the two match. An **OT:** note gives the reference and, where the quotation differs from the Hebrew in a way that matters, says so briefly. Examples: Hebrews 10:5 ("a body you have prepared for me", where Psalm 40:6 in Hebrew has "ears you have dug for me"); Acts 7:14 ("seventy-five", where Genesis 46:27 in Hebrew has "seventy").
 
 This principle reflects the Christian canonical reading of Scripture. It is stated openly here so that readers know it is a principle and not an accident.
+
+### No brackets in the text
+
+Because the base texts are fixed (Textus Receptus and Masoretic Text), every verse of the KJV's verse set is present in the main text. Disputed passages such as Mark 16:9–20, John 7:53–8:11, Acts 8:37 and 1 John 5:7–8 are **not** bracketed, set in smaller type or moved to footnotes. The footnote carries the evidence. Brackets are not used in the main text for any purpose.
 
 ## 5. Source data
 
@@ -83,6 +101,8 @@ All translation work is done from actual source-text files kept in this reposito
 | Use | Source | License |
 |---|---|---|
 | OT Hebrew/Aramaic text + morphology | Westminster Leningrad Codex via Open Scriptures Hebrew Bible (OSHB) | Public domain text; CC BY 4.0 morphology |
+| OT Ben Hayyim text (for verses or readings where it differs from Leningrad) | C. D. Ginsburg's edition of the Hebrew Bible (1894), which follows the Ben Hayyim tradition | Public domain |
+| Dead Sea Scrolls readings (for notes) | Published editions (Discoveries in the Judaean Desert; Abegg, Flint and Ulrich, *The Dead Sea Scrolls Bible*), consulted and cited, not reproduced | — |
 | NT base text | Scrivener's Textus Receptus (1894) | Public domain |
 | NT Majority text | Robinson-Pierpont Byzantine Textform (2018) | Public domain |
 | NT critical text | SBL Greek New Testament; NA28 readings cited (not reproduced) | SBLGNT freely licensed; NA28 cited only |
@@ -113,3 +133,7 @@ The master text is **USFM 3** (Unified Standard Format Markers), one file per bo
 | Date | Decision | Notes |
 |---|---|---|
 | 2026-11-03 | Charter adopted (decisions 1–7 above) | Project owner chose "no inclusive language" and delegated the other choices to the translator's recommendation. |
+| 2026-11-03 | Review of the foundation documents (Fable 5.1, xhigh). Rules added to the charter: differences among TR editions and KJV readings with no Greek support are footnoted (§4); verses the Leningrad Codex lacks are supplied from the Ben Hayyim text (§4); Qere is translated, Ketiv noted (§4); Aramaic sections are marked (§4); NT quotations are translated as the Greek stands, with differences from the Hebrew noted (§4); no brackets in the main text (§4). | Gaps a translator would hit in the first chapters. Each follows from the existing decisions (KJV verse set, fixed base texts, transparency). |
+| 2026-11-03 | "No silent omissions" (§3) refined: content is never dropped, but Hebrew and Greek discourse particles may be rendered by punctuation or sentence structure. | The earlier wording would have forced an English word for every *de* and *waw*, producing stilted English without adding accuracy. |
+| 2026-11-03 | Style guide: USFM nesting corrected (`\+` form inside `\wj` and inside footnotes); footnote templates fixed to use `\fqa` for alternative wordings; category tags are plain text; USFM header template added; new sections on Hebrew and Greek grammar, wordplay and acrostics, transliterated words, the words of Jesus, euphemisms, proper names and capitalization; appendix of KJV words whose meaning has changed. | The sample markup was invalid USFM 3, and several everyday translation questions had no rule. |
+| 2026-11-03 | Glossary: Psalm 8:5 *elohim* = "angels" (was "God" or "heavenly beings"); *nomos* = "law" throughout Romans, including 7:21–23 (was "principle" there); Daniel 7:13 "son of man" lowercase with a note; John 1:18 must carry a textual note; Ephesians 3:12 added to the *pistis Christou* list; Genesis 1:2 "Spirit of God" with a note; about forty entries added; a list of passages that always require a note (§I). Strong's number for *yir'ah* corrected to H3374. | Psalm 8:5 and *nomos* now follow the charter's own principles (NT-consistent rendering where the Hebrew allows; concordance over interpretation). The rest fills gaps. |

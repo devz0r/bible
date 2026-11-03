@@ -9,7 +9,7 @@ Status codes: — not started · D drafted · R reviewed against the source · N
 | Translation charter | Draft 1 (2026-11-03) |
 | Style guide | Draft 1 (2026-11-03) |
 | Key-term glossary (core list) | Draft 1 (2026-11-03) |
-| Review of foundation documents by Fable 5.1 (xhigh) | — |
+| Review of foundation documents by Fable 5.1 (xhigh) | Done (2026-11-03); changes logged in charter §8 |
 | Source-text data (`sources/`) | — |
 | Validation scripts (USFM, glossary, verse counts) | — |
 

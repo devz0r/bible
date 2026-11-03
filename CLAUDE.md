@@ -33,6 +33,7 @@ An English Bible translation that is accurate, readable and transparent. Before 
 - **No gender-inclusive language** (the project owner's decision; charter decision 4).
 - **Every rule change** goes into the charter's decision log (§8), and must be applied to chapters that are already translated.
 - **Never silently depart from the glossary.** Either follow it or add a note and update the glossary.
-- Mark supplied words (`\add`), plural "you" (`\zpl`), the divine name (`\nd`) and the words of Jesus (`\wj`) from the first draft onward.
+- Mark supplied words (`\add`), plural "you" (`\zpl`), the divine name (`\nd`) and the words of Jesus (`\wj`) from the first draft onward. Inside `\wj` or inside a footnote, use the nested `\+` form (`\+zpl ...\+zpl*`).
+- Before drafting a chapter, check `docs/glossary.md` §I (passages that always require a note) for that chapter.
 - Footnotes are brief, fair to all traditions, and begin with a category tag (**Text:**, **Or:**, **Lit.:**, **Heb.:**, **Gk.:**, **OT:**, **Note:**).
 - Update `PROGRESS.md` when a chapter changes status.
